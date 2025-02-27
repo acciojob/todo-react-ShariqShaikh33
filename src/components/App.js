@@ -30,10 +30,10 @@ const App = () => {
         {
           list.map((e)=>{
             return(
-              <div  key={e.id}>
-                <p className="INLINE">{e.name}</p>
+              <ul  key={e.id}>
+                <li className="INLINE">{e.name}</li>
                 <button className="INLINE" onClick={()=>(deleteTask(e.id))}>Delete</button>
-              </div>
+              </ul>
               
             ) 
           })
