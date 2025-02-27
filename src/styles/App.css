@@ -1,1 +1,4 @@
-
+.INLINE{
+    display: inline;
+    margin: 10px;
+}
